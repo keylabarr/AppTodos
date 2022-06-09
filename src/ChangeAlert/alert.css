@@ -1,0 +1,43 @@
+
+.ChageAlert-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1e1e1f50;
+  z-index: 2;
+}
+
+.alert-container {
+
+  position: fixed;
+  bottom: -10px;
+  left: -10px;
+  right: -10px;
+  font-family: sans-serif; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center;
+  color: #ffffff; 
+  background:#d8a0b7; 
+  height: auto;
+  padding: 15px;
+}
+
+
+.btn {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #006ab0;
+  background-color: rgba(148,187,233,1);
+  border-radius: 5px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+.btn:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}

@@ -10,3 +10,6 @@
 h2 {
     color: rgb(247, 247, 247);
   }
+  .TodoCounter--loading {
+      opacity: 25%;
+  }
