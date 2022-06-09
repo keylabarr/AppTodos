@@ -11,7 +11,7 @@ import { TodosLoading } from "../TodosLoading";
 import {TodoHeader } from "../TodoHeader";
 import {TodoCounter} from "../TodoCounter"; 
 import {TodoSearch} from '../TodoSearch';
-import {ChangeAlertWithStorageListener } from '../ChangeAlert';
+import {ChangeAlert } from '../ChangeAlert';
 
 // const defaultTodos = [
 //   { text: 'Cortar cebolla', completed: true },
@@ -104,7 +104,7 @@ function App() {
       <CreateTodoButtom
        setOpenModal={setOpenModal}
       />
-      <ChangeAlertWithStorageListener 
+      <ChangeAlert
       sincronize = {sincronizeTodos}
       />
     </React.Fragment>
